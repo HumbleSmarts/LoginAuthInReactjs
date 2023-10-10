@@ -6,6 +6,7 @@ import UserProfile from "./components/Profile/UserProfile";
 import AuthPage from "./pages/AuthPage";
 import HomePage from "./pages/HomePage";
 import AuthContext from "./store/auth-context";
+// import Login from "./components/Auth/Loginform";
 
 function App() {
   const authCxt = useContext(AuthContext);
@@ -16,9 +17,9 @@ function App() {
       // Redirect("/auth");
     }, 5 * 60 * 1000);
   }, []);
-  
 
   return (
+    // <Login />
     <Layout>
       <Switch>
         <Route path="/" exact>
