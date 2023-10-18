@@ -5,7 +5,7 @@ const UserProfile = (props) => {
   console.log(props.name);
   return (
     <section className={classes.profile}>
-      <h1>Your User Profile</h1>
+      <h1>Update Your Password</h1>
       <ProfileForm />
     </section>
   );
